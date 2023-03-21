@@ -5,7 +5,7 @@ exports.switchToggle = async (req, res) => {
   const { turnOff } = req?.query;
   if (!["true", "false"]?.includes(turnOff)) {
     return res.json({
-      message: "Please make sure switch turnOff true or false",
+      message: "Please make sure switch turnOff true or false. example = http://localhost:5000/switch/?turnOff=false",
     });
   }
   const result = {
