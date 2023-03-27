@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const Sequelize = require("sequelize");
 
 const route = require("./src/routes");
-const port = process.env.PORT;
+const port = 3000;
 
 const app = express();
 const http = require("http").Server(app);
