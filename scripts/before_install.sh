@@ -9,6 +9,5 @@
 #sudo apt-get install nodejs -y
 # Install dependencies:
 #sudo npm install forever -g
-#sudo npm install ts-node -g
 
 sudo rm -rf /home/ubuntu/socket-io-server/
