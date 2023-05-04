@@ -1,24 +1,13 @@
 {
-  "name": "socket-io",
+  "name": "web-socket",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "migrate": "cd src && sequelize db:migrate"
+    "start": "nodemon src/index.js"
   },
   "dependencies": {
-    "bcrypt": "^5.1.0",
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "express-validator": "^6.15.0",
-    "jsonwebtoken": "^9.0.0",
-    "mysql2": "^3.2.0",
-    "nodemon": "^2.0.21",
-    "sequelize": "^6.29.3",
-    "sequelize-cli": "^6.6.0",
-    "socket.io": "^4.6.1"
+    "nodemon": "^2.0.22",
+    "ws": "^8.13.0"
   }
 }
