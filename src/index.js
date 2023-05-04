@@ -2,7 +2,7 @@
 const WebSocket = require("ws");
 
 // Create a WebSocket server
-const server = new WebSocket.Server({ port: 8080 });
+const server = new WebSocket.Server({ port: 3000 });
 const clients = new Set();
 
 const broadcast = (message) => {
